@@ -1,0 +1,111 @@
+.sigma_custom_heading_wrapper .section-title{
+  margin: 0;
+}
+.sigma_custom_heading_wrapper .section-title span.title-tag,
+.sigma_custom_heading_wrapper .section-title .heading-subtitle{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.sigma_custom_heading_wrapper .section-title .icon{
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sigma_custom_heading_wrapper .section-title .icon i{
+  font-size: 34px;
+}
+
+.sigma_custom_heading_wrapper.text-left .section-title .icon::before,
+.sigma_custom_heading_wrapper.text-right .section-title .icon::after{
+  display: none;
+}
+.sigma_custom_heading_wrapper.text-left .section-title .icon{
+  justify-content: flex-start;
+}
+.sigma_custom_heading_wrapper.text-right .section-title .icon{
+  justify-content: flex-end;
+}
+
+.sigma_custom_heading_wrapper .section-title .icon::after,
+.sigma_custom_heading_wrapper .section-title .icon::before{
+  background-color: #696393;
+}
+
+/* Style 2 */
+.sigma_custom_heading_wrapper.custom-heading-style-2 .section-title .icon::after,
+.sigma_custom_heading_wrapper.custom-heading-style-2 .section-title .icon::before{
+  content: "";
+  width: 160px;
+  height: 1px;
+  margin: 0 20px
+}
+/* Style 3 */
+.sigma_custom_heading_wrapper.custom-heading-style-3 .section-title .icon::after,
+.sigma_custom_heading_wrapper.custom-heading-style-3 .section-title .icon::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 20px
+}
+/* Style 4 */
+.sigma_custom_heading_wrapper.custom-heading-style-4 .section-title .icon::after,
+.sigma_custom_heading_wrapper.custom-heading-style-4 .section-title .icon::before{
+  content: "";
+  width: 160px;
+  height: 4px;
+  border-radius: 25px;
+  margin: 0 20px
+}
+/* Style 5 */
+.sigma_custom_heading_wrapper.custom-heading-style-5 .section-title .icon::after,
+.sigma_custom_heading_wrapper.custom-heading-style-5 .section-title .icon::before{
+  content: "";
+  width: 160px;
+  height: 4px;
+  background-color: transparent;
+  border: 2px dashed #696393;
+  margin: 0 20px
+}
+/* Style 6 */
+.sigma_custom_heading_wrapper .section-title .heading_arrow,
+.sigma_contact_info_wrapper .contact_info .box_heading .heading_arrow {
+    margin-bottom: 10px;
+}
+.sigma_custom_heading_wrapper .section-title .heading_arrow span,
+.heading_arrow span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1px;
+    background: #4196ff;
+    height: 4px;
+    width: 30px;
+    border-radius: 35px;
+}
+.sigma_custom_heading_wrapper .section-title .heading_arrow span.dots_div,
+.heading_arrow span.dots_div{
+    width: 4px;
+    height: 4px;
+    background: #4196ff;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 5px;
+}
+.sigma_custom_heading_wrapper .section-title .heading_arrow span.dots_div::after,
+.heading_arrow span.dots_div::after {
+    width: 4px;
+    height: 4px;
+    background: #4196ff;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    content: "";
+}

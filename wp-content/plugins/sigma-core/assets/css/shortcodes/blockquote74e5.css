@@ -1,0 +1,32 @@
+.sigma_blockquote_wrapper .blockquote-wrapper {
+    background: #0e073b;
+    position: relative;
+    padding: 30px 30px 30px 80px;
+    margin: 0 auto 30px;
+}
+.sigma_blockquote_wrapper .blockquote-wrapper p {
+    color: #bdc4cf;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto 15px;
+}
+.sigma_blockquote_wrapper .blockquote-wrapper .quote_owner {
+    color: #4196ff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+.sigma_blockquote_wrapper .blockquote-wrapper::after {
+    position: absolute;
+    top: 40%;
+    left: 25px;
+    color: #4a5462;
+    content: "\f10d";
+    font-family: "Font Awesome 5 Pro";
+    width: 40px;
+    font-weight: 900;
+    height: 40px;
+    text-align: center;
+    transform: translateY(-50%);
+    font-size: 30px;
+}

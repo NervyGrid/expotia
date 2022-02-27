@@ -1,0 +1,97 @@
+.sigma_tabs-custom-wrapper.sigma-product-category-tab-style-2 .nav-pills .nav-link {
+    width: 160px;
+    padding: 25px 35px;
+    text-align: center;
+    border-radius: 6px;
+    border: 0;
+    background: #4196ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+    font-size: 16px;
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+}
+.sigma_tabs-custom-wrapper.sigma-product-category-tab-style-2 .nav-pills .nav-link.active,
+.sigma_tabs-custom-wrapper.sigma-product-category-tab-style-2 .nav-pills .nav-link:hover{
+  background: #0e073b;
+}
+.sigma_product_category_tabs_wrapper.sigma-product-category-tab-style-2 .nav-pills {
+    border: none;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+.sigma_tabs-custom-wrapper.sigma-product-category-tab-style-2 .nav-pills .nav-item + .nav-item {
+    margin-bottom: 30px;
+}
+.sigma_tabs-custom-wrapper.sigma-product-category-tab-style-2 .nav-pills .nav-link i {
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-right: 0;
+}
+.sigma_tabs-custom-wrapper.sigma-product-category-tab-style-2 .nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    background-color: transparent;
+    height: 10px;
+    border-top: solid 15px transparent;
+    bottom: -14px;
+    border-left: solid 18px transparent;
+    border-right: solid 18px transparent;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+.sigma_tabs-custom-wrapper.sigma-product-category-tab-style-2 .nav-pills .nav-link.active::before,
+.sigma_tabs-custom-wrapper.sigma-product-category-tab-style-2 .nav-pills .nav-link:hover::before{
+  border-top-color: #0e073b;
+}
+.sigma-product-category-tab-style-3 .nav-pills {
+    border: none;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.sigma-product-category-tab-style-3 .nav-pills .nav-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+.sigma-product-category-tab-style-3 .nav-pills .nav-item .nav-link {
+    background-color: #f8f8f8;
+    font-size: 16px;
+    margin-right: 0;
+    border: 1px solid #f8f8f8;
+    color: #696393;
+    padding: 10px 35px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.sigma-product-category-tab-style-3 .nav-pills .nav-item .nav-link.active,
+.sigma-product-category-tab-style-3 .nav-pills .nav-item .nav-link:hover{
+  background: #0e073b;
+  color: #fff;
+}
+.sigma-product-category-tab-style-3 .nav-pills .nav-item + .nav-item {
+    margin-left: 2px;
+}
+.sigma-product-category-tab-style-3 .nav-pills .nav-item:first-child .nav-link {
+    border-radius: 6px 0 0 6px;
+}
+.sigma-product-category-tab-style-3 .nav-pills .nav-item:last-child .nav-link {
+    border-radius: 0 6px 6px 0;
+}
+.sigma-product-category-tab-style-3 .nav-pills .nav-item .nav-link i {
+    margin-right: 10px;
+}
+
+@media(max-width: 575px) {
+  .sigma-product-category-tab-style-3 .nav-pills {
+    flex-direction: column;
+  }
+}

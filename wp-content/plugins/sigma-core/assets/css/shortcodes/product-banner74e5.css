@@ -1,0 +1,61 @@
+.sigma_banner-slider .intro_text h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+.sigma_banner-slider .intro_text h1 {
+  margin: 0 auto 50px;
+  line-height: 1.3;
+}
+.sigma_banner-slider.slick-slider.shortcode_slider .slick-arrow {
+    position: absolute;
+    top: calc(50% - 30px);
+    transform: translateY(-50%);
+    right: 50px;
+    background-color: #f8f8f8;
+    opacity: 1;
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sigma_banner-slider.slick-slider.shortcode_slider .slick-arrow.slick-next:hover,
+.sigma_banner-slider.slick-slider.shortcode_slider .slick-arrow.slick-prev:hover{
+  box-shadow: none;
+  background: #0e073b;
+}
+.sigma_banner-slider.slick-slider.shortcode_slider .slick-arrow.slick-next {
+    top: calc(50% + 30px);
+    background: #f8f8f8;
+}
+.sigma_banner-slider.slick-slider.shortcode_slider .slick-arrow.slick-next:before {
+    content: "\f054";
+    font-weight: 600;
+    color: #0e073c;
+    font-size: 16px;
+}
+.sigma_banner-slider.slick-slider.shortcode_slider .slick-arrow.slick-prev:before{
+  content: "\f053";
+  font-weight: 600;
+  font-size: 16px;
+}
+.sigma_banner-slider.slick-slider.shortcode_slider .slick-arrow.slick-next:hover:before,
+.sigma_banner-slider.slick-slider.shortcode_slider .slick-arrow.slick-prev:hover:before{
+  color: #fff;
+}
+
+@media(max-width: 991px) {
+  .sigma_banner-slider .intro_text h1{
+    font-size: 50px;
+  }
+}
+
+@media(max-width: 767px) {
+  .sigma_banner-slider .intro_text h1{
+    font-size: 40px;
+  }
+}

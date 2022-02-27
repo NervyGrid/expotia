@@ -1,0 +1,15 @@
+.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs[class*="sigma-tour-"] .vc_tta-panel-body {
+    padding-top: 0;
+}
+.image-one{
+    position:absolute;
+    bottom:-20px;
+    left:-20px;
+    z-index:-1;
+}
+.overflow-visible{
+    overflow:visible;
+}
+.z-index_1{
+    z-index:-1;
+}

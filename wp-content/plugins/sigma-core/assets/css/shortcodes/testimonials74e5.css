@@ -1,0 +1,196 @@
+.testimonial-box {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-box {
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .testimonial-box {
+    padding: 40px;
+    font-size: 14px;
+  }
+}
+
+.testimonial-box .client-img {
+  max-width: 150px;
+  max-height: 150px;
+  margin: auto;
+  position: relative;
+}
+
+.testimonial-box .client-img img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+.testimonial-box .client-img .check {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 4px solid #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #4196FF;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-box h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 35px;
+  letter-spacing: -1px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-box h3 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .testimonial-box h3 {
+    font-size: 22px;
+  }
+}
+
+.testimonial-box .clinet-post {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #4196FF;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.testimonial-box .clinet-post + p{
+  margin: 20px 0 0;
+  font-size: 14px;
+}
+
+.testimonial-box .sigma_testimonial-rating{
+  margin-top: 20px;
+}
+.testimonial-box .sigma_testimonial-rating i{
+  color: #4196FF;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-box .clinet-post {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-box .clinet-post {
+    font-size: 12px;
+  }
+}
+
+.testimonial-box:hover {
+  -webkit-box-shadow: 0px 14px 24px 0px rgba(190, 173, 142, 0.2);
+          box-shadow: 0px 14px 24px 0px rgba(190, 173, 142, 0.2);
+}
+.testimonial-slider ul.slick-dots{
+  margin-top: 0px;
+}
+.testimonial-slider ul.slick-dots li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.testimonial-slider ul.slick-dots li button {
+  font-size: 0;
+  border: 0;
+  background-color: #0003;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  border-radius: 50%;
+}
+
+.testimonial-slider ul.slick-dots li.slick-active button {
+  width: 10px;
+  background-color: #4196FF;
+}
+.testimonial-slider .slick-track {
+    padding: 15px 0;
+}
+/*--- Style2 -----*/
+.testimonials-style-2 .testimonial-box {
+    background-color: #fff;
+    margin-bottom: 40px;
+    text-align: left;
+    background: #fff;
+    padding: 35px 40px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0 0 18px;
+    position: relative;
+}
+.testimonials-style-2 .testimonial-box .sigma_testimonial-rating {
+    margin: 0 auto 10px;
+}
+.testimonila-meta-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.testimonials-style-2 .testimonial-box .client-img {
+  margin: 0;
+  max-width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  max-height: 80px;
+}
+.testimonials-style-2 .testimonial-box .client-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.testimonials-style-2 .testimonial-box h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+.testimonials-style-2 .testimonial-box .client-post {
+    font-size: 15px;
+    color: #4196ff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.testimonials-style-2 .testimonial-box .sigma_testimonial-rating i {
+    color: #ffcc00;
+    font-weight: 900;
+}
+.testimonials-style-2 .testimonial-box::after {
+    position: absolute;
+    top: auto;
+    right: 60px;
+    content: "\f10d";
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 120px;
+    opacity: 0.05;
+    font-weight: 600;
+    line-height: normal;
+    bottom: 20px;
+}
+.testimonials-style-2 .testimonial-box p {
+    font-size: 14px;
+    line-height: 24px;
+}

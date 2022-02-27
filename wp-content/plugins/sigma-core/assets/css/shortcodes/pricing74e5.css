@@ -1,0 +1,93 @@
+.sigma_pricing{
+	padding: 30px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+	margin-bottom: 30px;
+	text-align: center;
+	transition: 0.3s;
+}
+.sigma_pricing:hover{
+	transform: translateY(-10px);
+}
+.sigma_pricing .sigma_pricing-top span{
+	margin-bottom: 10px;
+}
+.sigma_pricing .sigma_pricing-icon{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #4196ff;
+	background-color: #0e073b;
+	font-size: 32px;
+	margin: 0 auto;
+  margin-bottom: 10px;
+}
+.sigma_pricing .sigma_pricing-title{
+	display: block;
+	color: #4196ff;
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.sigma_pricing .sigma_pricing-rate{
+	display: block;
+	color: #0e073c;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.2;
+}
+.sigma_pricing .sigma_general-list{
+	background-color: transparent;
+	padding:0;
+	margin: 18px 0 25px;
+}
+.sigma_pricing .sigma_general-list ul{
+	padding: 0;
+  list-style: none;
+}
+.sigma_pricing .sigma_general-list ul li span{
+  flex: none;
+  padding-left: 10px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0e073c;
+}
+.sigma_pricing .sigma_general-list ul li{
+	justify-content: center;
+}
+.sigma_pricing .sigma_general-list ul li + li{
+	margin-top: 10px;
+}
+.sigma_pricing .sigma_general-list ul li i {
+    background-color: transparent;
+    color: #4196ff;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+}
+.sigma_pricing .sigma_pricing-icon .icon-number {
+    margin-bottom: 0;
+}
+.sigma_pricing.hot-plan {
+    background: #4196ff;
+}
+.sigma_pricing.hot-plan .sigma_pricing-icon {
+    background: #fff;
+}
+.sigma_pricing.hot-plan .sigma_pricing-top span,
+.sigma_pricing.hot-plan .sigma_pricing-top,
+.sigma_pricing.hot-plan .sigma_general-list ul li i,
+.sigma_pricing.hot-plan .sigma_general-list ul li span{
+    color: #fff;
+}
+.sigma_pricing.hot-plan .btn {
+    background: #ffa800;
+    color: #fff;
+}
+.sigma_pricing.hot-plan .btn:hover{
+  background: #367DD4;
+}

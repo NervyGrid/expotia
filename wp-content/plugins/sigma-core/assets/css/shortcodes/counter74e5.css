@@ -1,0 +1,185 @@
+.counter-style-1 .counter-box{
+  text-align: center;
+}
+.counter-style-1 .counter-box .icon {
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.counter-style-1 .counter-box .icon i {
+    font-size: 70px;
+    color: #4196FF;
+}
+.counter-style-1 .counter-box h4 {
+    font-size: 60px;
+    word-spacing: 0;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+.counter-style-1 .counter-box h4 .plus-icon {
+    font-size: 16px;
+}
+.counter-box .title {
+    color: #999999;
+}
+.counter-dark-layout .counter-box h4{
+  color:#fff;
+}
+.counter-text-left .counter-box {
+    text-align: left;
+}
+.counter-text-right .counter-box {
+    text-align: right;
+}
+.counter-text-center .counter-box {
+    text-align: center;
+}
+/* counter style 2 */
+.counter-style-2 .counter-box.counter-box-two {
+    background-color: #fff;
+    padding: 30px 40px 30px 120px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.counter-style-2 .counter-box.counter-box-two .icon {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 60px;
+    color: #4196FF;
+    margin: 0;
+    line-height: 1;
+}
+.counter-style-2 .counter-box.counter-box-two h4 {
+    font-size: 60px;
+    word-spacing: 0;
+    font-weight: 400;
+    letter-spacing: -1px;
+    font-family: "Poppins", serif;
+}
+.counter-style-2 .counter-box.counter-box-two .icon img {
+    width: 60px;
+}
+.counter-style-2.counter-dark-layout .counter-box {
+    background-color: #0e073c;
+}
+.counter-style-2.counter-dark-layout .counter-box h4{
+  color:#fff;
+}
+/* Counter style 3 */
+.counter-style-3 .counter-box {
+    position: relative;
+}
+.counter-style-3 .counter-box h4 {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+.counter-style-3 .counter-box h4 .counter {
+    color: #4196ff;
+    font-size: 60px;
+    display: block;
+    line-height: 1;
+}
+.counter-style-3 .counter-box h4 .plus-icon {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 400;
+    color: #696393;
+}
+.counter-style-3 .counter-box .title {
+    color: #0e073c;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+.counter-style-3 .counter-box .icon {
+    font-size: 40px;
+    color: #4196ff;
+}
+.counter-style-3.counter-dark-layout .counter-box .icon,
+.counter-style-3.counter-dark-layout .counter-box .title,
+.counter-style-3.counter-dark-layout .counter-box h4 .plus-icon,
+.counter-style-3.counter-dark-layout .counter-box h4 {
+    color: #fff;
+}
+/* counter style 4 */
+.counter-style-4 .counter-box {
+    position: relative;
+    padding: 60px 30px;
+}
+.counter-style-4 .counter-box.light-layout {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 0 25px;
+}
+.counter-style-4 .counter-box.dark-layout{
+  background: #0e073b;
+}
+.counter-style-4 .counter-box .icon {
+    margin: 0 auto 40px;
+}
+.counter-style-4 .counter-box .icon i {
+    font-size: 80px;
+    color: #4196ff;
+}
+.counter-style-4 .counter-box .icon img{
+  width: 80px;
+}
+.counter-style-4 .counter-box h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.counter-style-4 .counter-box h4 .counter {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1;
+}
+.counter-style-4 .counter-box h4 .plus-icon {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.counter-style-4 .counter-box .title {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.counter-style-4.counter-dark-layout .counter-box h4 .counter,
+.counter-style-4.counter-dark-layout .counter-box h4 .plus-icon,
+.counter-style-4.counter-dark-layout .counter-box .title
+{
+  color: #fff;
+}
+
+/* Style 5 */
+.counter-style-5 .counter-box .icon i {
+    color: #4196ff;
+    font-size: 60px;
+    margin: 0 auto 20px;
+}
+.counter-style-5 .counter-box h4 {
+    display: block;
+    color: #0e073c;
+    font-size: 60px;
+    line-height: 70px;
+}
+.counter-style-5 .counter-box .title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    font-weight: 500;
+    color: #696393;
+}
+.counter-style-5.counter-dark-layout .counter-box .title,
+.counter-style-5.counter-dark-layout .counter-box h4 {
+    color: #fff;
+}
+
+
+@media (max-width: 575px) {
+.counter-style-2 .counter-box.counter-box-two h4,
+.counter-style-1 .counter-box h4 {
+    font-size: 38px;
+}
+}

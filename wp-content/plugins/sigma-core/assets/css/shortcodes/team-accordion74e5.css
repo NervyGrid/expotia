@@ -1,0 +1,97 @@
+.angels_list {
+    padding: 80px 8%;
+}
+.angels_list .sub-heading {
+    color: #4196ff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.angels_list h2 {
+    color: #fff;
+    font-size: 43px;
+    line-height: 46px;
+}
+.entry-content .angels_list h2{
+  margin: 0 auto 40px;
+}
+.angels_list .nav.nav-tabs {
+    border: none;
+    display: block;
+}
+.angels_list .nav.nav-tabs li a {
+    text-align: left;
+    padding: 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 0 auto;
+    position: relative;
+    line-height: normal;
+    background: none;
+    border: 0;
+}
+.angels_list .nav.nav-tabs li a,
+.angels_list .nav.nav-tabs li a span {
+    color: #696393;
+}
+.angels_list .nav.nav-tabs li a p {
+    display: inline-block;
+    margin: 0 auto;
+    min-width: 250px;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+.angels_list .nav.nav-tabs li a span {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.angels_list .nav.nav-tabs li a.active{
+  color: #fff;
+}
+.angels_list .nav.nav-tabs li a.active:after {
+    position: absolute;
+    top: 49%;
+    left: -150px;
+    content: "";
+    height: 2px;
+    width: 130px;
+    background: rgba(255, 255, 255, 0.3);
+}
+.angels_list .nav.nav-tabs li a.active span{
+  color: #4196ff;
+}
+.angel_img .tab-content .tab-pane img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.angel_img, .angel_img .tab-content, .angel_img .tab-content .tab-pane {
+    height: 100%;
+}
+
+/* Responsive */
+@media (max-width:1200px) {
+  .angels_list h2 {
+  	font-size: 32px;
+  	margin: 0 auto 20px;
+  	line-height:38px;
+  }
+  .angels_list .nav-tabs li a p {
+  	font-size: 17px;
+  }
+  .angels_list .nav-tabs li a {
+  	padding: 4px 0;
+  }
+  .angels_list .nav.nav-tabs li a p{
+    min-width: 180px;
+    font-size: 20px;
+  }
+}
+@media (max-width:767px) {
+  .angels_list .nav.nav-tabs li a p{
+    min-width: auto;
+    font-size: 16px;
+  }
+}

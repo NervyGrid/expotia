@@ -1,0 +1,63 @@
+.sigma_contact_info_wrapper .contact_info {
+    padding: 60px 50px;
+    height: 100%;
+}
+.sigma_contact_info_wrapper .contact_info .box_heading h4 {
+    color: #fff;
+    margin: 0 auto 2px;
+}
+.sigma_contact_info_wrapper .contact_info ul {
+    list-style: none;
+    margin: 0;
+}
+.sigma_contact_info_wrapper .contact_info ul li {
+    padding: 30px 0;
+    border-bottom: rgba(255, 255, 255, 0.07) solid 1px;
+    margin: 0 auto;
+}
+.sigma_contact_info_wrapper .contact_info ul li h6 {
+    margin: 0 auto;
+    color: #a39ccf;
+    font-size: 18px;
+}
+.sigma_contact_info_wrapper .contact_info ul li p{
+  margin-bottom: 0;
+}
+.sigma_contact_info_wrapper .contact_info ul li:first-child{
+  padding-top: 0;
+}
+.sigma_contact_info_wrapper .contact_info .box_heading {
+    margin: 0 auto 35px;
+}
+.direction_btn a {
+    display: block;
+    background: #fff;
+    text-transform: uppercase;
+    color: #696393;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 26px 10px;
+    margin: 0 -50px -60px;
+    text-align: center;
+}
+.direction_btn a i {
+    margin-left: 10px;
+    color: #4196ff;
+}
+.sigma_contact_info_wrapper .form_wrap {
+    padding: 60px 60px 60px 40px;
+    height: 100%;
+}
+.sigma_contact_info_wrapper .form_wrap .box_heading {
+    margin: 0 auto 35px;
+}
+
+/* Style 2 */
+.contact-info-style-2 .contact_wp.box_wp {
+    background: none;
+    box-shadow: none;
+}
+.contact-info-style-2 .contact_wp.box_wp .form_wrap {
+    padding: 60px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0 0 15px;
+}

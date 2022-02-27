@@ -1,0 +1,203 @@
+.sigma-custom-image-style-1 .sigma_about{
+	position: relative;
+}
+.sigma-custom-image-style-1 .sigma_about .sigma_about-image-1,
+.sigma-custom-image-style-1 .sigma_about .sigma_about-image-2{
+	border: 8px solid #4196ff;
+	padding: 5px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.sigma-custom-image-style-1 .sigma_about .sigma_about-image-1 img,
+.sigma-custom-image-style-1 .sigma_about .sigma_about-image-2 img{
+	border-radius: 50%;
+	width: 100%;
+}
+.sigma-custom-image-style-1 .sigma_about .sigma_about-image-2{
+	position: absolute;
+    bottom: 30px;
+    left: -15px;
+}
+.sigma-custom-image-style-1.sigma-small-image-right-alignment .sigma_about .sigma_about-image-2 {
+    left: auto;
+    right: -15px;
+}
+/* style 2 */
+.sigma-custom-image-style-2 .btn_wp .btn-link {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0e073c;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+.sigma-custom-image-style-2 .btn_wp {
+    padding: 2px 0 25px;
+}
+.sigma-custom-image-style-2 .btn_wp .btn-link i {
+    margin-left: 8px;
+}
+.sigma-custom-image-style-2 .btn_wp .btn-link:hover{
+  color: #4196FF;
+}
+.sigma-custom-image-style-2 .img_wp {
+    position: relative;
+}
+.sigma-custom-image-style-2 .img_wp img{
+  width: 100%;
+  height: 100%;
+}
+.sigma-custom-image-style-2 .blue_box {
+    background: #4196ff;
+    padding: 70px 64px;
+    position: absolute;
+    top: -60px;
+    left: -70px;
+    max-width: 400px;
+    color: #fff;
+}
+.sigma-custom-image-style-2 .blue_box h6{
+    color: #cde3ff;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0 auto 40px;
+  }
+.sigma-custom-image-style-2 .blue_box h4{
+    color: #fff;
+    line-height: 40px;
+    margin: 0 auto 50px;
+}
+/* style 3 */
+.sigma-custom-image-style-3 .sigma_about.style-4 img {
+    border: 20px solid #4196ff;
+    border-radius: 50px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.sigma-custom-image-style-3 .sigma_about.style-4 .sigma_video-btn {
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 1;
+    transition: 0.3s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -15px;
+    background-color: #4196ff;
+    color: #fff;
+}
+.sigma-custom-image-style-3 .sigma_about.style-4 .sigma_video-btn:before,
+.sigma-custom-image-style-4 .sigma_about .sigma_video-btn:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border: 2px solid #fff;
+    animation-name: pulseInOut;
+    opacity: 0;
+    border-radius: 50%;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.sigma-custom-image-style-3 .sigma_about.style-4 .sigma_video-btn:after,
+.sigma-custom-image-style-4 .sigma_about .sigma_video-btn:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border: 2px solid #fff;
+    animation-name: pulseInOut;
+    opacity: 0;
+    border-radius: 50%;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+
+/* Style 4 */
+.sigma-custom-image-style-4 .sigma_about {
+    position: relative;
+}
+.sigma-custom-image-style-4 .sigma_about .sigma_about-image-2 {
+    right: 0;
+    left: auto;
+    bottom: -125px;
+    z-index: 1;
+		position: absolute;
+}
+.sigma-custom-image-style-4 .sigma_about-image-1 img,
+.sigma-custom-image-style-4 .sigma_about .sigma_about-image-2 img {
+    width: auto;
+}
+.sigma-custom-image-style-4 .sigma_about .sigma_about-exp {
+    color: #0e073c;
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.4;
+    position: absolute;
+    top: 75px;
+    right: -36px;
+    transform: rotate(270deg);
+    background-color: #fff;
+    padding: 10px;
+}
+.sigma-custom-image-style-4 .sigma_about .sigma_video-btn {
+    position: absolute;
+    left: 10px;
+    bottom: -104px;
+    width: 80px;
+    height: 80px;
+    background-color: #4196ff;
+    color: #fff;
+    z-index: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+		border-radius: 50%;
+}
+
+@media(max-width: 991px) {
+	.sigma-custom-image-style-3 .sigma_about.style-4 .sigma_video-btn{
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: auto;
+	}
+	.sigma-custom-image-style-4 .sigma_about .sigma_video-btn {
+    left: 60px;
+    bottom: 60px;
+	}
+	.sigma-custom-image-style-4 .sigma_about .sigma_about-image-2 {
+    position: relative;
+    bottom: 0;
+    text-align: right;
+    margin-top: -125px;
+	}
+	.sigma-custom-image-style-2 .blue_box {
+    padding: 30px 24px 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+		max-width: 100%;
+	}
+}
+
+@media(max-width: 767px) {
+	.sigma-custom-image-style-4 .sigma_about .sigma_about-exp {
+    top: 34px;
+    right: -36px;
+	}
+}
